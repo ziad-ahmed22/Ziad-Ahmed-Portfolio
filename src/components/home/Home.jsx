@@ -6,7 +6,7 @@ import { BsFillTelephoneOutboundFill } from "react-icons/bs";
 import { FaDownload } from "react-icons/fa";
 
 const description =
-  "Junior Frontend Developer experienced with all stages of the development. I can desgin modern creative web pages, interactive user interfaces, animations and site responsive to all screens.";
+  "Junior Frontend Developer. I can design modern, creative web pages, interactive user interfaces, animations, and sites that are responsive to all screens.";
 
 const Home = () => {
   return (
@@ -30,7 +30,11 @@ const Home = () => {
                   Hire Me
                   <BsFillTelephoneOutboundFill className="ms-2" />
                 </a>
-                <a href="/" className="r-5">
+                <a
+                  href="https://www.mediafire.com/file/41tbyfewoe37exr/Ziad_Ahmed_cv.pdf/file"
+                  target="blank"
+                  className="r-5"
+                >
                   Download My CV
                   <FaDownload className="ms-2" />
                 </a>

@@ -5,11 +5,11 @@ import aboutImg from "./aboutImg.svg";
 import { FaCheck } from "react-icons/fa";
 
 const data = [
-  "I am 24 years old, from Egypt.",
-  "On September 2021 I graduated from faculty of Information Technology at Egyptian E-Learning University (EELU).",
-  "My specialization gives me the ability to think about your project from different points of view, the business one and technical view as well.",
-  "GPA: 3.38 out of 4.00",
-  "On March 2023 I finished my military service.",
+  "I am 24 years old and I am from Egypt.",
+  "In September 2021, I graduated from the Faculty of Information Technology at the Egyptian E-Learning University (EELU).",
+  "My specialization gives me the ability to think about your project from different points of view, including the business and technical perspectives.",
+  "My GPA is 3.38 out of 4.00.",
+  "In March 2023, I finished my military service.",
 ];
 
 const About = () => {

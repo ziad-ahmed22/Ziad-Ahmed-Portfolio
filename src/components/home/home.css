@@ -6,7 +6,8 @@
 
 .home .info {
   padding: 20px;
-  box-shadow: -200px -250px 500px #1f144b92, 500px -300px 500px #1f144ba2;
+  box-shadow: -200px -250px 500px var(--shadow-color),
+    500px -300px 500px var(--shadow-color);
   background-color: black;
 }
 .home .info h1.name {
