@@ -1,6 +1,6 @@
 import "./home.css";
 import { Col, Container, Row } from "react-bootstrap";
-import profileImg from "../../images/ziad.jpg";
+import profileImg from "../../../images/ziad.jpg";
 import Social from "./Social";
 import { BsFillTelephoneOutboundFill } from "react-icons/bs";
 import { FaDownload } from "react-icons/fa";
