@@ -1,0 +1,98 @@
+.works .box {
+  background-color: var(--black-color-2);
+  margin-top: 130px;
+}
+.works .box .img {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-top: -100px;
+  overflow: hidden;
+  position: relative;
+}
+.works .box .img img {
+  object-fit: cover;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.works .box .img:hover img {
+  transform: scale(1.2) skew(2deg) rotate(-5deg);
+  -webkit-transform: scale(1.2) skew(2deg) rotate(-5deg);
+  -moz-transform: scale(1.2) skew(2deg) rotate(-5deg);
+  -ms-transform: scale(1.2) skew(2deg) rotate(-5deg);
+  -o-transform: scale(1.2) skew(2deg) rotate(-5deg);
+}
+
+.works .box .img .over {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.817);
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.works .box .img .over a {
+  background-color: var(--blue-color);
+  width: 50px;
+  height: 50px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.works .box .img .over a svg {
+  font-size: 28px;
+  color: var(--white-color);
+}
+.works .box .img .over a:hover {
+  background-color: var(--black-color-2);
+}
+.works .box:hover .img .over {
+  opacity: 1;
+  visibility: visible;
+}
+.works .box .tooltip {
+  background-color: var(--black-color-2);
+  font-weight: 500;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.works .box .info .title {
+  padding: 25px 10px 20px;
+  text-align: center;
+  letter-spacing: 0.8px;
+  color: var(--white-color-2);
+  font-weight: bold;
+}
+.works .box .info .skills {
+  padding: 0 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+.works .box .info .skills > span {
+  background-color: var(--blue-color-2);
+  color: var(--white-color);
+  font-size: 14px;
+  padding: 5px 13px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}

@@ -1,0 +1,67 @@
+form {
+  background-color: var(--black-color-2);
+  padding: 20px;
+}
+form > div > label {
+  width: 100%;
+  margin-bottom: 8px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--white-color-2);
+}
+form > div > input {
+  margin-bottom: 25px;
+}
+form > div > textarea {
+  height: 120px;
+  resize: none;
+}
+form > div > input,
+form > div > textarea {
+  width: 100%;
+  padding: 5px 10px;
+  background-color: var(--black-color);
+  border: 1px solid var(--black-color);
+  color: var(--white-color-2);
+  caret-color: var(--white-color-2);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+form > div > input::placeholder,
+form > div > textarea::placeholder {
+  color: var(--white-color-2);
+  opacity: 0.3;
+}
+form > div > input:focus,
+form > div > textarea:focus {
+  border: 1px solid var(--white-color-2);
+}
+form > div > button {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  background-color: var(--blue-color);
+  color: var(--white-color-2);
+  padding: 6px 25px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 18px;
+  border: 1px solid var(--blue-color);
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+form > div > button:hover {
+  border: 1px solid var(--white-color-2);
+  background-color: transparent;
+}

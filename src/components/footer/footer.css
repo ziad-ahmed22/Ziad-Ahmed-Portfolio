@@ -1,0 +1,17 @@
+.footer {
+  background-color: var(--black-color-2);
+  color: var(--white-color-2);
+  margin-top: 100px;
+  padding: 17px 5px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+@media (max-width: 576px) {
+  .footer {
+    margin-top: 40px;
+    font-size: 12px;
+    padding: 20px 0;
+  }
+}
