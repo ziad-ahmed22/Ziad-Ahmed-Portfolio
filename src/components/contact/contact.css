@@ -10,8 +10,9 @@
 }
 .contact .info {
   display: flex;
+  flex-direction: column;
   gap: 20px;
-  margin-top: 25px;
+  margin-top: 1px;
 }
 .contact .info > div {
   background-color: var(--black-color-2);
@@ -19,20 +20,14 @@
   border: 1px solid var(--white-color-2);
   display: flex;
   flex-direction: column;
-  width: 50%;
   align-items: center;
-  padding: 25px;
+  padding: 30px;
   letter-spacing: 1px;
 }
 .contact .info > div svg {
-  margin-bottom: 25px;
-  font-size: 24px;
+  margin-bottom: 30px;
+  font-size: 28px;
 }
-@media (max-width: 576px) {
-  .contact .info {
-    flex-direction: column;
-  }
-  .contact .info > div {
-    width: 100%;
-  }
+.contact .info > div:first-of-type svg {
+  font-size: 36px;
 }

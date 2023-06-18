@@ -91,7 +91,6 @@
   overflow: hidden;
   max-width: 380px;
   margin: auto;
-  /* box-shadow: 100px 100px 500px 100px #1f144b34; */
   border: 6px solid var(--white-color-2);
 }
 .home .img img {
@@ -122,8 +121,6 @@
     padding-top: 70px;
   }
   .home .info {
-    /* background-color: black; */
-    /* padding: 20px; */
     margin-bottom: 15px;
     padding-bottom: 320px;
   }

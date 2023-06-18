@@ -1,14 +1,8 @@
 .about .info {
-  /* box-shadow: -200px -250px 500px #1f144b44; */
   padding: 20px;
   font-size: 16px;
   background-color: black;
 }
-/* @media (max-width: 767px) {
-  .about .info {
-    background-color: black;
-  }
-} */
 .about .info > p {
   line-height: 1.8;
   color: var(--white-color-2);

@@ -5,7 +5,7 @@ import aboutImg from "./aboutImg.svg";
 import { FaCheck } from "react-icons/fa";
 
 const data = [
-  "I am 24 years old, from Egypt, living in sohag.",
+  "I am 24 years old, from Egypt.",
   "On September 2021 I graduated from faculty of Information Technology at Egyptian E-Learning University (EELU).",
   "My specialization gives me the ability to think about your project from different points of view, the business one and technical view as well.",
   "GPA: 3.38 out of 4.00",

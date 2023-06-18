@@ -20,6 +20,7 @@ const Repos = () => {
         <span className="loading">Loading...</span>
       </div>
     );
+
   if (error)
     return (
       <div className="repos">

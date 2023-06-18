@@ -2,7 +2,7 @@ const data = [
   {
     id: 1,
     title: "E-Commerce Website",
-    image: "src/images/work/ecommerce.png",
+    image: "./src/images/work/ecommerce.png",
     repo_url: "https://github.com/ziad-ahmed22/DollabyReactApp",
     demo_url: "https://ziad-ahmed22.github.io/DollabyReactApp/",
     skills: ["Html", "Css", "React Js", "React Bootstrap", "Redux Toolkit"],
@@ -10,7 +10,7 @@ const data = [
   {
     id: 2,
     title: "Movies Website",
-    image: "src/images/work/movies.png",
+    image: "./src/images/work/movies.png",
     repo_url: "https://github.com/ziad-ahmed22/NetflixoReactApp",
     demo_url: "https://ziad-ahmed22.github.io/NetflixoReactApp/",
     skills: ["Html", "Css", "React Js", "React Bootstrap", "Redux Toolkit"],
@@ -18,7 +18,7 @@ const data = [
   {
     id: 3,
     title: "React Todo App",
-    image: "src/images/work/todoReact.png",
+    image: "./src/images/work/todoReact.png",
     repo_url: "https://github.com/ziad-ahmed22/todo-app-react",
     demo_url: "https://ziad-ahmed22.github.io/todo-app-react/",
     skills: ["Html", "Css", "React Js"],
@@ -26,7 +26,7 @@ const data = [
   {
     id: 4,
     title: "Resturant Website",
-    image: "src/images/work/resturant.png",
+    image: "./src/images/work/resturant.png",
     repo_url: "https://github.com/ziad-ahmed22/Restaurantly",
     demo_url: "https://ziad-ahmed22.github.io/Restaurantly/",
     skills: ["Html", "Css", "Javascript", "Bootstrap"],
@@ -34,7 +34,7 @@ const data = [
   {
     id: 5,
     title: "Ziad World Website",
-    image: "src/images/work/ziadWorld.png",
+    image: "./src/images/work/ziadWorld.png",
     repo_url: "https://github.com/ziad-ahmed22/templateFourHtmlCssJS",
     demo_url: "https://ziad-ahmed22.github.io/templateFourHtmlCssJS/",
     skills: ["Html", "Css", "Javascript"],
@@ -42,7 +42,7 @@ const data = [
   {
     id: 6,
     title: "Dashboard",
-    image: "src/images/work/dashboard.png",
+    image: "./src/images/work/dashboard.png",
     repo_url: "https://github.com/ziad-ahmed22/DashboardHtmlCss",
     demo_url: "https://ziad-ahmed22.github.io/DashboardHtmlCss/",
     skills: ["Html", "Css"],
@@ -50,7 +50,7 @@ const data = [
   {
     id: 7,
     title: "Js Todo App",
-    image: "src/images/work/todojs.png",
+    image: "./src/images/work/todojs.png",
     repo_url: "https://github.com/ziad-ahmed22/To_Do_Task",
     demo_url: "https://ziad-ahmed22.github.io/To_Do_Task/",
     skills: ["Html", "Css", "Javascript"],
@@ -58,7 +58,7 @@ const data = [
   {
     id: 8,
     title: "Gallery With Slider",
-    image: "src/images/work/gallery.png",
+    image: "./src/images/work/gallery.png",
     repo_url: "https://github.com/ziad-ahmed22/Awsome_Gallery_With_Slider",
     demo_url: "https://ziad-ahmed22.github.io/Awsome_Gallery_With_Slider/",
     skills: ["Html", "Css", "Javascript"],
@@ -66,7 +66,7 @@ const data = [
   {
     id: 9,
     title: "Template Three",
-    image: "src/images/work/templateThree.png",
+    image: "./src/images/work/templateThree.png",
     repo_url: "https://github.com/ziad-ahmed22/templateThreeHtmlCss",
     demo_url: "https://ziad-ahmed22.github.io/templateThreeHtmlCss/",
     skills: ["Html", "Css"],
@@ -74,7 +74,7 @@ const data = [
   {
     id: 10,
     title: "Random Key Generator",
-    image: "src/images/work/randomKeyGen.png",
+    image: "./src/images/work/randomKeyGen.png",
     repo_url: "https://github.com/ziad-ahmed22/Random_Key_Generator",
     demo_url: "https://ziad-ahmed22.github.io/Random_Key_Generator/",
     skills: ["Html", "Css", "Javascript"],
@@ -82,7 +82,7 @@ const data = [
   {
     id: 11,
     title: "Images Slider",
-    image: "src/images/work/slider.png",
+    image: "./src/images/work/slider.png",
     repo_url: "https://github.com/ziad-ahmed22/Image_Slider",
     demo_url: "https://ziad-ahmed22.github.io/Image_Slider/",
     skills: ["Html", "Css", "Javascript"],
@@ -90,7 +90,7 @@ const data = [
   {
     id: 12,
     title: "Template Two",
-    image: "src/images/work/templateTwo.png",
+    image: "./src/images/work/templateTwo.png",
     repo_url: "https://github.com/ziad-ahmed22/templateTwoHtmlCss",
     demo_url: "https://ziad-ahmed22.github.io/templateTwoHtmlCss/",
     skills: ["Html", "Css"],
@@ -98,7 +98,7 @@ const data = [
   {
     id: 13,
     title: "Js Quiz App",
-    image: "src/images/work/quiz.png",
+    image: "./src/images/work/quiz.png",
     repo_url: "https://github.com/ziad-ahmed22/Quiz_App",
     demo_url: "https://ziad-ahmed22.github.io/Quiz_App/",
     skills: ["Html", "Css", "Javascript"],
@@ -106,7 +106,7 @@ const data = [
   {
     id: 14,
     title: "Event Comming Page",
-    image: "src/images/work/celebration.png",
+    image: "./src/images/work/celebration.png",
     repo_url: "https://github.com/ziad-ahmed22/Count_Down_Timer",
     demo_url: "https://ziad-ahmed22.github.io/Count_Down_Timer/",
     skills: ["Html", "Css", "Javascript"],
