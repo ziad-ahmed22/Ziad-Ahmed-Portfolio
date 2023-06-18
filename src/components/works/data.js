@@ -1,8 +1,10 @@
+import ecommerceImg from "../../../images/ecommerce.png";
+
 const data = [
   {
     id: 1,
     title: "E-Commerce Website",
-    image: "/images/ecommerce.png",
+    image: ecommerceImg,
     repo_url: "https://github.com/ziad-ahmed22/DollabyReactApp",
     demo_url: "https://ziad-ahmed22.github.io/DollabyReactApp/",
     skills: ["Html", "Css", "React Js", "React Bootstrap", "Redux Toolkit"],
