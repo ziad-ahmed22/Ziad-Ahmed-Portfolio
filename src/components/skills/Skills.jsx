@@ -15,12 +15,14 @@ const mySkills = [
   "Redux Js",
   "Redux Toolkit",
   "Git & Github",
+  "APIs",
+  "SQL",
 ];
 
 const Skills = () => {
   return (
     <div className="skills">
-      <SectionHeader title="Skills" />
+      <SectionHeader title="My Skills" />
       <Container>
         <div className="grid-4 mb-5 shadow">
           {mySkills.map((item, index) => (

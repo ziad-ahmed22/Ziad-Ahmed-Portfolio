@@ -19,12 +19,12 @@
 }
 .home .info h1.name span {
   background-color: var(--blue-color);
-  border-radius: 5px 26px 5px 26px;
-  opacity: 0.3;
-  -webkit-border-radius: 5px 26px 5px 26px;
-  -moz-border-radius: 5px 26px 5px 26px;
-  -ms-border-radius: 5px 26px 5px 26px;
-  -o-border-radius: 5px 26px 5px 26px;
+  border-radius: 5px 25px 5px 25px;
+  opacity: 0.5;
+  -webkit-border-radius: 5px 25px 5px 25px;
+  -moz-border-radius: 5px 25px 5px 25px;
+  -ms-border-radius: 5px 25px 5px 25px;
+  -o-border-radius: 5px 25px 5px 25px;
 }
 .home .info > h3 {
   color: var(--white-color-2);

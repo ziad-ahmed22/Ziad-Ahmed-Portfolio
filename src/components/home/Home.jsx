@@ -5,6 +5,8 @@ import Social from "./Social";
 import { BsFillTelephoneOutboundFill } from "react-icons/bs";
 import { FaDownload } from "react-icons/fa";
 
+const cv = "https://1drv.ms/b/s!Ar0OmrXFRr-JgpdUF1TJf5NoZSMz_g?e=SYr4SJ";
+
 const description =
   "Junior Frontend Developer. I can design modern, creative web pages, interactive user interfaces, animations, and sites that are responsive to all screens.";
 
@@ -30,11 +32,7 @@ const Home = () => {
                   Hire Me
                   <BsFillTelephoneOutboundFill className="ms-2" />
                 </a>
-                <a
-                  href="https://www.mediafire.com/file/41tbyfewoe37exr/Ziad_Ahmed_cv.pdf/file"
-                  target="blank"
-                  className="r-5"
-                >
+                <a href={cv} target="blank" className="r-5">
                   Download My CV
                   <FaDownload className="ms-2" />
                 </a>
