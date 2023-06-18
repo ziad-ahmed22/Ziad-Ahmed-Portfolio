@@ -19,7 +19,10 @@ const Home = () => {
                 <span>I'm</span> Ziad Ahmed Mahmoud
               </h1>
 
-              <h3 className="mb-4">Frontend Developer "React Js"</h3>
+              <h3 className="mb-4">
+                Frontend Developer <span>"</span>React Js<span>"</span>
+              </h3>
+
               <p className="description mb-5">{description}</p>
 
               <div className="btns">

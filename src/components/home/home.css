@@ -6,7 +6,7 @@
 
 .home .info {
   padding: 20px;
-  box-shadow: -200px -250px 500px #1f144bb3, 500px -300px 500px #1f144bc3;
+  box-shadow: -200px -250px 500px #1f144b92, 500px -300px 500px #1f144ba2;
   background-color: black;
 }
 .home .info h1.name {
@@ -28,6 +28,7 @@
 .home .info > h3 {
   color: var(--white-color-2);
 }
+
 .home .info .description {
   color: var(--white-color-2);
   font-size: 18px;
