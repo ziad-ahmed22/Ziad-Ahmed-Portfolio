@@ -24,7 +24,7 @@ const Contact = () => {
             <div className="info">
               <div className="r-5">
                 <MdLocationOn />
-                <span>El Monshah, Sohag, Egypt</span>
+                <span>Egypt, Sohag, El Monshah</span>
               </div>
 
               <div className="r-5">

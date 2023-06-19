@@ -1,10 +1,5 @@
 import "./social.css";
-import {
-  FaLinkedinIn,
-  FaFacebookF,
-  FaGithub,
-  FaWhatsapp,
-} from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaWhatsapp } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 
 const Social = () => {
@@ -25,10 +20,6 @@ const Social = () => {
       <a href="https://wa.me/201145814339?text=Hello Ziad">
         <FaWhatsapp />
         <span>WhatsApp</span>
-      </a>
-      <a href="https://www.facebook.com/profile.php?id=100017952035617">
-        <FaFacebookF />
-        <span>Facebook</span>
       </a>
     </div>
   );

@@ -4,9 +4,9 @@ import "./skills.css";
 
 const mySkills = [
   "Html",
-  "Html 5",
+  "Html5",
   "Css",
-  "Css 3",
+  "Css3",
   "Javascript",
   "ES6",
   "Bootstrap",
