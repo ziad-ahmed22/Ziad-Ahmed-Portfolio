@@ -67,7 +67,7 @@
     font-size: 14px;
   }
 }
-@media (max-width: 470px) {
+@media (max-width: 492px) {
   .nav .links > ul > li {
     width: calc(100% / 2 - 10px);
   }

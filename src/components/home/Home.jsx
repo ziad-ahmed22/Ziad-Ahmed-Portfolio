@@ -14,7 +14,7 @@ const Home = () => {
     <div className="home">
       <Container>
         <Row>
-          <Col className="col-12 col-lg-8">
+          <Col className="col-12 col-lg-8 order-last order-md-first">
             <div className="info r-5">
               <h1 className="name">
                 <span>I'm</span> Ziad Ahmed Mahmoud
@@ -39,7 +39,7 @@ const Home = () => {
             </div>
           </Col>
 
-          <Col className="col-12 col-lg-4">
+          <Col className="col-12 col-lg-4 order-first order-md-last">
             <div className="img r-5 ">
               <img
                 src={profileImg}

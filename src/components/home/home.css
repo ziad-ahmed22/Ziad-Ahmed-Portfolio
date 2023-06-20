@@ -19,6 +19,7 @@
 }
 .home .info h1.name span {
   background-color: var(--blue-color);
+  padding: 0 1px 0 3px;
   border-radius: 5px 25px 5px 25px;
   opacity: 0.5;
   -webkit-border-radius: 5px 25px 5px 25px;
@@ -119,15 +120,24 @@
 
 @media (max-width: 768px) {
   .home {
-    padding-top: 70px;
+    padding-top: 80px;
   }
   .home .info {
-    margin-bottom: 15px;
-    padding-bottom: 320px;
+    padding-top: 170px;
+    margin-top: -150px;
+    z-index: -5;
+    position: relative;
   }
   .home .info h1.name {
     font-size: 23px;
     margin-bottom: 20px;
+  }
+  .home .info h1.name span {
+    border-radius: 5px 15px 5px 15px;
+    -webkit-border-radius: 5px 15px 5px 15px;
+    -moz-border-radius: 5px 15px 5px 15px;
+    -ms-border-radius: 5px 15px 5px 15px;
+    -o-border-radius: 5px 15px 5px 15px;
   }
   .home .info h3 {
     font-size: 18px;
@@ -141,8 +151,13 @@
     padding: 10px;
   }
   .home .img {
-    margin-top: -300px;
-    width: 80%;
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
   }
   .home .social {
     position: absolute;
