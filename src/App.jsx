@@ -12,47 +12,47 @@ import { useEffect, useState } from "react";
 import BgShape from "./components/shapes/BgShape";
 
 function App() {
-  // const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(true);
 
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setLoading(false);
-  //   }, 2000);
-  // }, []);
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
 
   return (
     <>
-      {/* {loading ? (
+      {loading ? (
         <PreLoader />
-      ) : ( */}
-      <>
-        <BgShape />
-        <Element>
-          <Nav />
-        </Element>
-        <Element name="home">
-          <Home />
-        </Element>
-        <Element name="about">
-          <About />
-        </Element>
-        <Element name="skills">
-          <Skills />
-        </Element>
-        <Element name="works">
-          <Works />
-        </Element>
-        <Element name="repos">
-          <Repos />
-        </Element>
-        <Element name="contact">
-          <Contact />
-        </Element>
-        <Element>
-          <Footer />
-        </Element>
-      </>
-      {/* )} */}
+      ) : (
+        <>
+          <BgShape />
+          <Element>
+            <Nav />
+          </Element>
+          <Element name="home">
+            <Home />
+          </Element>
+          <Element name="about">
+            <About />
+          </Element>
+          <Element name="skills">
+            <Skills />
+          </Element>
+          <Element name="works">
+            <Works />
+          </Element>
+          <Element name="repos">
+            <Repos />
+          </Element>
+          <Element name="contact">
+            <Contact />
+          </Element>
+          <Element>
+            <Footer />
+          </Element>
+        </>
+      )}
     </>
   );
 }
