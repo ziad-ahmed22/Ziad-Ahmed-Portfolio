@@ -24,7 +24,7 @@ const Skills = () => {
     <div className="skills">
       <SectionHeader title="My Skills" />
       <Container>
-        <div className="grid-4 mb-5 shadow">
+        <div className="grid-4 mb-5">
           {mySkills.map((item, index) => (
             <div key={index} className="box r-5">
               {item}

@@ -30,9 +30,9 @@ const Nav = () => {
     <>
       <Container>
         <div className="nav flex-between r-5 px-3">
-          <div className="logo d-none d-md-block">Z</div>
+          <div className="logo d-none d-lg-block">Z</div>
 
-          <div className={`links d-none d-md-block ${showNav ? "show" : ""}`}>
+          <div className={`links d-none d-lg-block ${showNav ? "show" : ""}`}>
             <ul>
               <li>
                 <Link
@@ -128,7 +128,7 @@ const Nav = () => {
         </div>
       </Container>
 
-      <div className="nav-menu d-md-none">
+      <div className="nav-menu d-lg-none">
         {showNav ? (
           <MdOutlineClose onClick={() => setShowNav(false)} />
         ) : (

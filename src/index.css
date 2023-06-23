@@ -1,13 +1,14 @@
 :root {
   --blue-color: #3a1db0;
   --blue-color-2: #1f144b;
+  --dark-color: black;
   --black-color: #0d1117;
-  --black-color-2: #161a23;
+  --black-color-2: #1b1f2a;
+  --black-color-3: #14171f;
   --white-color: #eef6fe;
   --white-color-2: #c6d2e0;
   --shadow-color: #1f144b89;
 }
-/* 242424 1a1a1a */
 
 body {
   font-family: "Poppins", sans-serif;
