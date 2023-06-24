@@ -24,8 +24,8 @@
   display: flex;
 }
 .nav .links > ul > li > a {
-  padding: 8px 12px;
-  margin: 13px 5px;
+  padding: 8px 15px;
+  margin: 13px 6px;
   color: var(--white-color);
   display: inline-block;
   border-radius: 5px;

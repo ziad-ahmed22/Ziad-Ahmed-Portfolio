@@ -31,6 +31,7 @@ const Home = () => {
                   Hire Me
                   <BsFillTelephoneOutboundFill className="ms-2" />
                 </a>
+
                 <a href={cv} target="blank" className="r-5">
                   Download My CV
                   <FaDownload className="ms-2" />
@@ -40,7 +41,7 @@ const Home = () => {
           </Col>
 
           <Col className="col-12 col-lg-4 order-first order-lg-last">
-            <div className="img r-5 ">
+            <div className="img r-5">
               <img
                 src={profileImg}
                 alt="Ziad Profile Image"

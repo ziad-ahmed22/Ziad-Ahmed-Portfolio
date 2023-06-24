@@ -10,8 +10,14 @@ import { Element } from "react-scroll";
 import PreLoader from "./components/preloader/PreLoader";
 import { useEffect, useState } from "react";
 import BgShape from "./components/shapes/BgShape";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -30,24 +36,31 @@ function App() {
           <Element>
             <Nav />
           </Element>
-          <Element name="home">
+
+          <Element name="home" data-aos="fade-down" data-aos-duration="1000">
             <Home />
           </Element>
-          <Element name="about">
+
+          <Element name="about" data-aos="fade-up" data-aos-duration="1000">
             <About />
           </Element>
-          <Element name="skills">
+
+          <Element name="skills" data-aos="fade-up" data-aos-duration="1000">
             <Skills />
           </Element>
-          <Element name="works">
+
+          <Element name="works" data-aos="fade-up" data-aos-duration="1000">
             <Works />
           </Element>
-          <Element name="repos">
+
+          <Element name="repos" data-aos="fade-up" data-aos-duration="1000">
             <Repos />
           </Element>
-          <Element name="contact">
+
+          <Element name="contact" data-aos="fade-up" data-aos-duration="1000">
             <Contact />
           </Element>
+
           <Element>
             <Footer />
           </Element>

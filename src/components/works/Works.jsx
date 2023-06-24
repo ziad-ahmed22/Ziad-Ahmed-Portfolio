@@ -13,7 +13,7 @@ const Works = () => {
       <Container>
         <div className="grid-3">
           {data.map((item) => (
-            <div key={item.id} className="box r-15 shadow">
+            <div key={item.id} className="box r-15">
               <div className="img r-15">
                 <img src={item.image} alt={item.title} className="wh-100" />
 

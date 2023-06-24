@@ -36,7 +36,7 @@ const Repos = () => {
         <Row xs={1} lg={2}>
           {repos.map((repo, index) => (
             <Col key={index}>
-              <div className="repo flex-between r-5 shadow">
+              <div className="repo flex-between r-5">
                 <span className="name">{repo.name}</span>
                 <a className="link r-5" href={repo.html_url} target="blank">
                   Repo Link
