@@ -37,27 +37,27 @@ function App() {
             <Nav />
           </Element>
 
-          <Element name="home" data-aos="fade-down" data-aos-duration="1000">
+          <Element name="home">
             <Home />
           </Element>
 
-          <Element name="about" data-aos="fade-up" data-aos-duration="1000">
+          <Element name="about">
             <About />
           </Element>
 
-          <Element name="skills" data-aos="fade-up" data-aos-duration="1000">
+          <Element name="skills">
             <Skills />
           </Element>
 
-          <Element name="works" data-aos="fade-up" data-aos-duration="1000">
+          <Element name="works">
             <Works />
           </Element>
 
-          <Element name="repos" data-aos="fade-up" data-aos-duration="1000">
+          <Element name="repos">
             <Repos />
           </Element>
 
-          <Element name="contact" data-aos="fade-up" data-aos-duration="1000">
+          <Element name="contact">
             <Contact />
           </Element>
 

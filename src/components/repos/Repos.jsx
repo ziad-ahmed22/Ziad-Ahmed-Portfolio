@@ -30,13 +30,17 @@ const Repos = () => {
     );
 
   return (
-    <div className="repos mb-5">
+    <div className="repos mb-5 overflow-hidden">
       <SectionHeader title="My Repos" />
       <Container>
         <Row xs={1} lg={2}>
           {repos.map((repo, index) => (
             <Col key={index}>
-              <div className="repo flex-between r-5">
+              <div
+                className="repo flex-between r-5"
+                data-aos="fade-up"
+                data-aos-duration="500"
+              >
                 <span className="name">{repo.name}</span>
                 <a className="link r-5" href={repo.html_url} target="blank">
                   Repo Link

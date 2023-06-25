@@ -21,12 +21,17 @@ const mySkills = [
 
 const Skills = () => {
   return (
-    <div className="skills">
+    <div className="skills overflow-hidden">
       <SectionHeader title="My Skills" />
       <Container>
         <div className="grid-4 mb-5">
           {mySkills.map((item, index) => (
-            <div key={index} className="box r-5">
+            <div
+              key={index}
+              className="box r-5"
+              data-aos="fade-up"
+              data-aos-duration="500"
+            >
               {item}
             </div>
           ))}

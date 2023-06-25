@@ -11,11 +11,15 @@ const Home = () => {
   const cv = "https://1drv.ms/b/s!Ar0OmrXFRr-JgpdfmsDYNyR6Y9hQKw?e=YaMSdl";
 
   return (
-    <div className="home">
+    <div className="home overflow-hidden">
       <Container>
         <Row>
           <Col className="col-12 col-lg-8 order-last order-lg-first">
-            <div className="info r-5">
+            <div
+              className="info r-5"
+              data-aos="fade-right"
+              data-aos-duration="1500"
+            >
               <h1 className="name">
                 <span>I'm</span> Ziad Ahmed Mahmoud
               </h1>
@@ -41,7 +45,11 @@ const Home = () => {
           </Col>
 
           <Col className="col-12 col-lg-4 order-first order-lg-last">
-            <div className="img r-5">
+            <div
+              className="img r-5"
+              data-aos="fade-left"
+              data-aos-duration="1500"
+            >
               <img
                 src={profileImg}
                 alt="Ziad Profile Image"

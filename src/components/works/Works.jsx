@@ -7,13 +7,18 @@ import { Tooltip } from "react-tooltip";
 
 const Works = () => {
   return (
-    <div className="works">
+    <div className="works overflow-hidden">
       <SectionHeader title="My Works" />
 
       <Container>
         <div className="grid-3">
           {data.map((item) => (
-            <div key={item.id} className="box r-15">
+            <div
+              key={item.id}
+              className="box r-15"
+              data-aos="fade-up"
+              data-aos-duration="800"
+            >
               <div className="img r-15">
                 <img src={item.image} alt={item.title} className="wh-100" />
 

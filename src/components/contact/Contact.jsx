@@ -8,19 +8,19 @@ import { MdLocationOn } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <div className="contact overflow-hidden">
       <SectionHeader title="Contact Me" />
       <Container>
-        <p className="head">
+        <p className="head" data-aos="fade-up" data-aos-duration="1000">
           My inbox is always open. I’d love to chat with you.
         </p>
 
         <Row xs={1} lg={2}>
-          <Col>
+          <Col data-aos="fade-right" data-aos-duration="1000">
             <Form />
           </Col>
 
-          <Col>
+          <Col data-aos="fade-left" data-aos-duration="1000">
             <div className="info">
               <div className="r-5">
                 <MdLocationOn />

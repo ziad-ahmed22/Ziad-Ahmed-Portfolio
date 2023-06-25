@@ -1,10 +1,9 @@
 .nav {
   background-color: var(--black-color-2);
   position: fixed;
-  top: 5px;
+  top: 10px;
   left: 50%;
   translate: -50% 0;
-  width: 88%;
   z-index: 555555555;
 }
 .nav .logo {
@@ -41,6 +40,7 @@
 .nav .links > ul > li > a.active {
   background-color: var(--blue-color);
 }
+
 @media (max-width: 992px) {
   .nav {
     top: unset;
@@ -70,6 +70,22 @@
 @media (max-width: 492px) {
   .nav .links > ul > li {
     width: calc(100% / 2 - 10px);
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .nav {
+    width: 937px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .nav {
+    width: 1117px;
+  }
+}
+@media (min-width: 1400px) {
+  .nav {
+    width: 1297px;
   }
 }
 

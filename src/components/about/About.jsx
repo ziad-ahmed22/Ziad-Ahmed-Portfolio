@@ -13,9 +13,9 @@ const data = [
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about overflow-hidden">
       <SectionHeader title="About Me" />
-      <Container>
+      <Container data-aos="fade-up" data-aos-duration="800">
         <div className="notebook">
           {data.map((item, index) => (
             <p key={index}>

@@ -121,8 +121,6 @@
   .home .info {
     padding-top: 160px;
     margin-top: -135px;
-    z-index: -5;
-    position: relative;
     background-color: var(--dark-color);
     box-shadow: -200px -250px 500px var(--shadow-color),
       500px -300px 500px var(--shadow-color);
@@ -150,6 +148,8 @@
     padding: 10px;
   }
   .home .img {
+    position: relative;
+    z-index: 5;
     width: 270px;
     height: 270px;
     border-radius: 50%;
