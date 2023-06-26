@@ -17,7 +17,7 @@ const Home = () => {
           <Col className="col-12 col-lg-8 order-last order-lg-first">
             <div
               className="info r-5"
-              data-aos="fade-right"
+              data-aos="fade-up"
               data-aos-duration="1500"
             >
               <h1 className="name">
@@ -47,7 +47,7 @@ const Home = () => {
           <Col className="col-12 col-lg-4 order-first order-lg-last">
             <div
               className="img r-5"
-              data-aos="fade-left"
+              data-aos="fade-down"
               data-aos-duration="1500"
             >
               <img

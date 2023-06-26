@@ -29,10 +29,10 @@ const Nav = () => {
   return (
     <>
       <Container>
-        <div className="nav flex-between r-5 px-3">
+        <div className={`nav flex-between r-5 px-3 ${showNav ? "show" : ""} `}>
           <div className="logo d-none d-lg-block">Z</div>
 
-          <div className={`links d-none d-lg-block ${showNav ? "show" : ""}`}>
+          <div className={`links `}>
             <ul>
               <li>
                 <Link
