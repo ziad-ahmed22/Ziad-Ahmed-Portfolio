@@ -13,7 +13,7 @@ const data = [
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about section-mb">
       <SectionHeader title="About Me" />
       <Container data-aos="fade-up" data-aos-duration="800">
         <div className="notebook">

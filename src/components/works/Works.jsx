@@ -7,7 +7,7 @@ import { Tooltip } from "react-tooltip";
 
 const Works = () => {
   return (
-    <div className="works overflow-hidden">
+    <div className="works section-mb overflow-hidden">
       <SectionHeader title="My Works" />
 
       <Container>

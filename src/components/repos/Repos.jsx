@@ -30,7 +30,7 @@ const Repos = () => {
     );
 
   return (
-    <div className="repos mb-5 overflow-hidden">
+    <div className="repos section-mb overflow-hidden">
       <SectionHeader title="My Repos" />
       <Container>
         <Row xs={1} lg={2}>

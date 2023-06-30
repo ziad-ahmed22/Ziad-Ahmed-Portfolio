@@ -5,7 +5,7 @@
   text-transform: uppercase;
   color: var(--white-color);
   text-align: center;
-  margin-top: 120px;
+  margin-top: 30px;
   margin-bottom: 60px;
   position: relative;
 }
@@ -14,7 +14,7 @@
   position: absolute;
   left: 50%;
   top: -50px;
-  opacity: 0.05;
+  opacity: 0.06;
   z-index: -5;
   font-size: 80px;
   scale: 1 1.1;

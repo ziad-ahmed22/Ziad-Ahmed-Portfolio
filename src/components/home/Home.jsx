@@ -8,10 +8,10 @@ import { FaDownload } from "react-icons/fa";
 const Home = () => {
   const description =
     "Junior Frontend Developer. I can design modern, creative web pages, interactive user interfaces, animations, and sites that are responsive to all screens.";
-  const cv = "https://1drv.ms/b/s!Ar0OmrXFRr-JgpdfmsDYNyR6Y9hQKw?e=YaMSdl";
+  const cv = "https://1drv.ms/b/s!Ar0OmrXFRr-Jgpd_n1bu2Tqws0P62Q?e=r0us04";
 
   return (
-    <div className="home overflow-hidden">
+    <div className="home overflow-hidden section-mb">
       <Container>
         <Row>
           <Col className="col-12 col-lg-8 order-last order-lg-first">

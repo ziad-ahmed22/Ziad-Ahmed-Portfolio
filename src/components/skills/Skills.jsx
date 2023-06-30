@@ -4,24 +4,25 @@ import "./skills.css";
 
 const mySkills = [
   "Html",
-  "Html5",
+  "Html 5",
   "Css",
-  "Css3",
+  "Css 3",
   "Javascript",
   "ES6",
   "Bootstrap",
   "React Js",
   "React Bootstrap",
+  "React Router Dom",
   "Redux Js",
   "Redux Toolkit",
+  "APIs (axios)",
   "Git & Github",
-  "APIs",
   "SQL",
 ];
 
 const Skills = () => {
   return (
-    <div className="skills overflow-hidden">
+    <div className="skills section-mb overflow-hidden">
       <SectionHeader title="My Skills" />
       <Container>
         <div className="grid-4 mb-5">

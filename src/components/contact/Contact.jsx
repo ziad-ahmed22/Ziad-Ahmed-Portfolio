@@ -8,7 +8,7 @@ import { MdLocationOn } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <div className="contact overflow-hidden">
+    <div className="contact section-mb overflow-hidden">
       <SectionHeader title="Contact Me" />
       <Container>
         <p className="head" data-aos="fade-up" data-aos-duration="1000">
