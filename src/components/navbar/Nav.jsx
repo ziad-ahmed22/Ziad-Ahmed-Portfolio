@@ -41,7 +41,7 @@ const Nav = () => {
                   spy={true}
                   smooth={true}
                   duration={250}
-                  offset={-400}
+                  offset={-160}
                   onSetActive={handleSetActive}
                   className={activeLink === "home" ? "active" : ""}
                 >
@@ -56,7 +56,7 @@ const Nav = () => {
                   spy={true}
                   smooth={true}
                   duration={250}
-                  offset={-400}
+                  offset={-160}
                   onSetActive={handleSetActive}
                   className={activeLink === "about" ? "active" : ""}
                 >
@@ -71,7 +71,7 @@ const Nav = () => {
                   spy={true}
                   smooth={true}
                   duration={250}
-                  offset={-400}
+                  offset={-160}
                   onSetActive={handleSetActive}
                   className={activeLink === "skills" ? "active" : ""}
                 >
@@ -86,7 +86,7 @@ const Nav = () => {
                   spy={true}
                   smooth={true}
                   duration={250}
-                  offset={-400}
+                  offset={-160}
                   onSetActive={handleSetActive}
                   className={activeLink === "works" ? "active" : ""}
                 >
@@ -101,7 +101,7 @@ const Nav = () => {
                   spy={true}
                   smooth={true}
                   duration={250}
-                  offset={-400}
+                  offset={-160}
                   onSetActive={handleSetActive}
                   className={activeLink === "repos" ? "active" : ""}
                 >
@@ -116,7 +116,7 @@ const Nav = () => {
                   spy={true}
                   smooth={true}
                   duration={250}
-                  offset={-400}
+                  offset={-160}
                   onSetActive={handleSetActive}
                   className={activeLink === "contact" ? "active" : ""}
                 >

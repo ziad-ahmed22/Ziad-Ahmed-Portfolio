@@ -1,6 +1,5 @@
 .preloader {
   background-color: var(--black-color);
-  /* background-color: red; */
   position: absolute;
   inset: 0;
   display: flex;
