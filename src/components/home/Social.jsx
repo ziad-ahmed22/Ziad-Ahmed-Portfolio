@@ -9,15 +9,15 @@ const Social = () => {
         <SiGmail />
         <span>Gmail</span>
       </a>
-      <a href="https://github.com/ziad-ahmed22">
+      <a href="https://github.com/ziad-ahmed22" target="blank">
         <FaGithub />
         <span>Github</span>
       </a>
-      <a href="https://www.linkedin.com/in/ziad-ahmed22/">
+      <a href="https://www.linkedin.com/in/ziad-ahmed22/" target="blank">
         <FaLinkedinIn />
         <span>Linkedin</span>
       </a>
-      <a href="https://wa.me/201145814339?text=Hello Ziad">
+      <a href="https://wa.me/201145814339?text=Hello Ziad" target="blank">
         <FaWhatsapp />
         <span>WhatsApp</span>
       </a>

@@ -31,7 +31,7 @@ const Home = () => {
               <p className="description mb-5">{description}</p>
 
               <div className="btns">
-                <a href="tel:01145814339" className="r-5 me-3">
+                <a href="tel:01145814339" target="blank" className="r-5 me-3">
                   Hire Me
                   <BsFillTelephoneOutboundFill className="ms-2" />
                 </a>
