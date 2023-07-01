@@ -10,6 +10,12 @@
   overflow: hidden;
   position: relative;
 }
+@media (max-width: 420px) {
+  .works .box .img {
+    width: 270px;
+    height: 270px;
+  }
+}
 .works .box .img img {
   object-fit: cover;
   transition: 0.3s;
@@ -95,4 +101,12 @@
   padding: 5px 13px;
   font-weight: 600;
   letter-spacing: 0.3px;
+}
+@media (max-width: 420px) {
+  .works .box .info .skills {
+    gap: 15px;
+  }
+  .works .box .info .skills > span {
+    padding: 5px 10px;
+  }
 }

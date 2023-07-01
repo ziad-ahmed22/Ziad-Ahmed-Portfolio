@@ -172,3 +172,9 @@
     -o-transform: translateX(-50%);
   }
 }
+
+@media (max-width: 371px) {
+  .home .info .btns > a {
+    padding: 6px;
+  }
+}

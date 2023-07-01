@@ -27,15 +27,15 @@ const Contact = () => {
                 <span>Egypt, Sohag, El Monshah</span>
               </div>
 
-              <div className="r-5">
+              <a href="tel:01145814339" target="blank" className="r-5">
                 <BsFillTelephoneOutboundFill />
                 <span>01145814339</span>
-              </div>
+              </a>
 
-              <div className="r-5">
+              <a href="mailto:ziiadd2211@gmail.com" className="r-5">
                 <SiGmail />
                 <span>ziiadd2211@gmail.com</span>
-              </div>
+              </a>
             </div>
           </Col>
         </Row>
