@@ -11,11 +11,12 @@ const mySkills = [
   "ES6",
   "Bootstrap",
   "React Js",
+  "React Hooks",
   "React Bootstrap",
   "React Router Dom",
+  "APIs (axios)",
   "Redux Js",
   "Redux Toolkit",
-  "APIs (axios)",
   "Git & Github",
   "SQL",
 ];
