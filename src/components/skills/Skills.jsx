@@ -17,8 +17,9 @@ const mySkills = [
   "APIs (axios)",
   "Redux Js",
   "Redux Toolkit",
+  "Typescript",
+  "Sass",
   "Git & Github",
-  "SQL",
 ];
 
 const Skills = () => {
