@@ -4,11 +4,16 @@ import { RiMenu5Fill } from "react-icons/ri";
 import { MdOutlineClose } from "react-icons/md";
 import { useEffect, useState } from "react";
 import { Link, Events, scrollSpy } from "react-scroll";
+import { data } from "./NavLinks";
 
 const Nav = () => {
+  let smallScreen = 992;
   const [showNav, setShowNav] = useState(false);
-
   const [activeLink, setActiveLink] = useState("home");
+
+  const handleSetActive = (to) => {
+    setActiveLink(to);
+  };
 
   useEffect(() => {
     Events.scrollEvent.register("begin", () => {});
@@ -22,107 +27,30 @@ const Nav = () => {
     };
   }, []);
 
-  const handleSetActive = (to) => {
-    setActiveLink(to);
-  };
-
   return (
     <>
       <Container>
         <div className={`nav flex-between r-5 px-3 ${showNav ? "show" : ""} `}>
           <div className="logo d-none d-lg-block">Z</div>
 
-          <div className={`links `}>
+          <div className="links">
             <ul>
-              <li>
-                <Link
-                  to="home"
-                  activeClass="active"
-                  spy={true}
-                  smooth={true}
-                  duration={250}
-                  offset={-160}
-                  onSetActive={handleSetActive}
-                  className={activeLink === "home" ? "active" : ""}
-                >
-                  Home
-                </Link>
-              </li>
-
-              <li>
-                <Link
-                  to="about"
-                  activeClass="active"
-                  spy={true}
-                  smooth={true}
-                  duration={250}
-                  offset={-160}
-                  onSetActive={handleSetActive}
-                  className={activeLink === "about" ? "active" : ""}
-                >
-                  About Me
-                </Link>
-              </li>
-
-              <li>
-                <Link
-                  to="skills"
-                  activeClass="active"
-                  spy={true}
-                  smooth={true}
-                  duration={250}
-                  offset={-160}
-                  onSetActive={handleSetActive}
-                  className={activeLink === "skills" ? "active" : ""}
-                >
-                  Skills
-                </Link>
-              </li>
-
-              <li>
-                <Link
-                  to="works"
-                  activeClass="active"
-                  spy={true}
-                  smooth={true}
-                  duration={250}
-                  offset={-160}
-                  onSetActive={handleSetActive}
-                  className={activeLink === "works" ? "active" : ""}
-                >
-                  Works
-                </Link>
-              </li>
-
-              <li>
-                <Link
-                  to="repos"
-                  activeClass="active"
-                  spy={true}
-                  smooth={true}
-                  duration={250}
-                  offset={-160}
-                  onSetActive={handleSetActive}
-                  className={activeLink === "repos" ? "active" : ""}
-                >
-                  Repos
-                </Link>
-              </li>
-
-              <li>
-                <Link
-                  to="contact"
-                  activeClass="active"
-                  spy={true}
-                  smooth={true}
-                  duration={250}
-                  offset={-160}
-                  onSetActive={handleSetActive}
-                  className={activeLink === "contact" ? "active" : ""}
-                >
-                  Contact
-                </Link>
-              </li>
+              {data.map(({ path, body }, index) => (
+                <li key={index}>
+                  <Link
+                    to={path}
+                    spy={true}
+                    smooth={true}
+                    duration={250}
+                    offset={window.innerWidth > smallScreen ? -140 : -60}
+                    activeClass="active"
+                    onSetActive={handleSetActive}
+                    className={activeLink === { path } ? "active" : ""}
+                  >
+                    {body}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
         </div>

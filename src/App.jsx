@@ -14,13 +14,10 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 function App() {
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    AOS.init();
     setTimeout(() => {
       setLoading(false);
     }, 2000);
