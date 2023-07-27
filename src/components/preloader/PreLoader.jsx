@@ -1,10 +1,10 @@
+import { ClimbingBoxLoader } from "react-spinners";
 import "./preloader.css";
-import loader from "./loader.svg";
 
 const PreLoader = () => {
   return (
     <div className="preloader">
-      <img src={loader} alt="loading" />
+      <ClimbingBoxLoader color="#3a1db0" />
     </div>
   );
 };

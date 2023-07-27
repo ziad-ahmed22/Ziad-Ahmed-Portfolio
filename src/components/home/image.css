@@ -1,0 +1,120 @@
+.header-img {
+  max-width: 380px;
+  margin: auto;
+  border: 4px solid var(--white-color-2);
+  position: relative;
+  animation: up-down 1s infinite;
+  -webkit-animation: up-down 10s infinite linear;
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+  }
+  35% {
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+  }
+  70% {
+    transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+  }
+}
+@media (max-width: 992px) {
+  .header-img {
+    overflow: hidden;
+    position: relative;
+    z-index: 5;
+    width: 270px;
+    height: 270px;
+    animation: unset;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-animation: unset;
+  }
+}
+
+.header-img .img {
+  overflow: hidden;
+}
+.header-img .img::before,
+.header-img .img::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background-color: var(--white-color-2);
+  z-index: -5;
+  opacity: 0.5;
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -o-transition: 0.6s;
+}
+.header-img .img::before {
+  transform: translate(-50%, -50%) rotate(7deg);
+  -webkit-transform: translate(-50%, -50%) rotate(7deg);
+  -moz-transform: translate(-50%, -50%) rotate(7deg);
+  -ms-transform: translate(-50%, -50%) rotate(7deg);
+  -o-transform: translate(-50%, -50%) rotate(7deg);
+}
+.header-img .img::after {
+  transform: translate(-50%, -50%) rotate(-7deg);
+  -webkit-transform: translate(-50%, -50%) rotate(-7deg);
+  -moz-transform: translate(-50%, -50%) rotate(-7deg);
+  -ms-transform: translate(-50%, -50%) rotate(-7deg);
+  -o-transform: translate(-50%, -50%) rotate(-7deg);
+}
+
+.header-img:hover .img::before {
+  transform: translate(-50%, -50%) rotate(-7deg);
+  -webkit-transform: translate(-50%, -50%) rotate(-7deg);
+  -moz-transform: translate(-50%, -50%) rotate(-7deg);
+  -ms-transform: translate(-50%, -50%) rotate(-7deg);
+  -o-transform: translate(-50%, -50%) rotate(-7deg);
+}
+.header-img:hover .img::after {
+  transform: translate(-50%, -50%) rotate(7deg);
+  -webkit-transform: translate(-50%, -50%) rotate(7deg);
+  -moz-transform: translate(-50%, -50%) rotate(7deg);
+  -ms-transform: translate(-50%, -50%) rotate(7deg);
+  -o-transform: translate(-50%, -50%) rotate(7deg);
+}
+
+.header-img .img img {
+  object-fit: cover;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.header-img .img:hover img {
+  transform: scale(1.1) rotate(3deg);
+  -webkit-transform: scale(1.1) rotate(3deg);
+  -moz-transform: scale(1.1) rotate(3deg);
+  -ms-transform: scale(1.1) rotate(3deg);
+  -o-transform: scale(1.1) rotate(3deg);
+}

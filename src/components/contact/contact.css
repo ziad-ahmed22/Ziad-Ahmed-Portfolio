@@ -32,7 +32,7 @@
 }
 .contact .info > div:hover,
 .contact .info > a:hover {
-  background-color: rgba(255, 255, 255, 0.066);
+  background-color: var(--blue-color-2);
 }
 .contact .info > div svg,
 .contact .info > a svg {

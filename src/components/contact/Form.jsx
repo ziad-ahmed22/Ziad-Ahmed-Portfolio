@@ -13,6 +13,7 @@ import {
 
 const Form = () => {
   const [data, setData] = useState(emptyObj);
+  const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
     setData({ ...data, [e.target.id]: e.target.value });
@@ -25,8 +26,9 @@ const Form = () => {
     form_message: data.msg,
   };
 
-  const sendEmail = () => {
-    emailjs.send(SERVICE_ID, TEMPLATE_ID, form_data, API_PUPLIC_KEY).then(
+  async function sendEmail() {
+    setLoading(true);
+    await emailjs.send(SERVICE_ID, TEMPLATE_ID, form_data, API_PUPLIC_KEY).then(
       (response) => {
         console.log(response.status);
         toast.success("Email Sent Succefully", {
@@ -43,7 +45,8 @@ const Form = () => {
         });
       }
     );
-  };
+    setLoading(false);
+  }
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -89,8 +92,8 @@ const Form = () => {
         </div>
 
         <div>
-          <button className="r-5" type="submit">
-            Send
+          <button disabled={loading} className="r-5" type="submit">
+            {loading ? "Sending..." : "Send"}
           </button>
         </div>
       </form>

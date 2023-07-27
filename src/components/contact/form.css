@@ -61,7 +61,11 @@ form > div > button {
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
 }
-form > div > button:hover {
+form > div > button:not(:disabled):hover {
   border: 1px solid var(--white-color-2);
   background-color: transparent;
+}
+form > div > button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
 }
