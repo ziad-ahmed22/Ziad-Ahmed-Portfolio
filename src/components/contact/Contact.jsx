@@ -2,9 +2,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import SectionHeader from "../sectionHeader/SectionHeader";
 import "./contact.css";
 import Form from "./Form";
-import { BsFillTelephoneOutboundFill } from "react-icons/bs";
-import { SiGmail } from "react-icons/si";
-import { MdLocationOn } from "react-icons/md";
+import ContactInfo from "./ContactInfo";
 
 const Contact = () => {
   return (
@@ -21,22 +19,7 @@ const Contact = () => {
           </Col>
 
           <Col data-aos="fade-left" data-aos-duration="1000">
-            <div className="info">
-              <div className="r-5">
-                <MdLocationOn />
-                <span>Egypt, Sohag, El Monshah</span>
-              </div>
-
-              <a href="tel:01145814339" target="blank" className="r-5">
-                <BsFillTelephoneOutboundFill />
-                <span>01145814339</span>
-              </a>
-
-              <a href="mailto:ziiadd2211@gmail.com" className="r-5">
-                <SiGmail />
-                <span>ziiadd2211@gmail.com</span>
-              </a>
-            </div>
+            <ContactInfo />
           </Col>
         </Row>
       </Container>
