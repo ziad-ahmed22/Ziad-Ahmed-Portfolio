@@ -31,7 +31,7 @@ const Nav = () => {
     <>
       <Container>
         <div className={`nav flex-between r-5 px-3 ${showNav ? "show" : ""} `}>
-          <div className="logo d-none d-lg-block">Z</div>
+          <div className="logo d-none d-lg-block">{`<Ziad/>`}</div>
 
           <div className="links">
             <ul>

@@ -9,15 +9,16 @@
   line-height: 1.7;
 }
 .home .info h1.name span {
+  padding: 0 2px 0 5px;
   background-color: var(--blue-color);
-  padding: 0 1px 0 3px;
-  border-radius: 5px 25px 5px 25px;
   opacity: 0.5;
-  -webkit-border-radius: 5px 25px 5px 25px;
-  -moz-border-radius: 5px 25px 5px 25px;
-  -ms-border-radius: 5px 25px 5px 25px;
-  -o-border-radius: 5px 25px 5px 25px;
+  border-radius: 5px 20px 5px 20px;
+  -webkit-border-radius: 5px 20px 5px 20px;
+  -moz-border-radius: 5px 20px 5px 20px;
+  -ms-border-radius: 5px 20px 5px 20px;
+  -o-border-radius: 5px 20px 5px 20px;
 }
+
 .home .info > h3 {
   color: var(--white-color-2);
 }
@@ -58,8 +59,8 @@
   width: 100%;
 }
 .home .info .btns > a:first-of-type:hover svg {
-  animation: move-up-right 0.5s infinite;
-  -webkit-animation: move-up-right 0.5s infinite;
+  animation: move-up-right 0.5s 0.3s infinite;
+  -webkit-animation: move-up-right 0.5s 0.3s infinite;
 }
 @keyframes move-up-right {
   to {
@@ -67,8 +68,8 @@
   }
 }
 .home .info .btns > a:last-of-type:hover svg {
-  animation: move-up-down 0.5s infinite;
-  -webkit-animation: move-up-down 0.5s infinite;
+  animation: move-up-down 0.5s 0.3s infinite;
+  -webkit-animation: move-up-down 0.5s 0.3s infinite;
 }
 @keyframes move-up-down {
   from {

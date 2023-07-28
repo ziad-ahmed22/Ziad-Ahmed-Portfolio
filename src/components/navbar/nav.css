@@ -7,18 +7,19 @@
   z-index: 555555555;
 }
 .nav .logo {
-  font-size: 35px;
-  padding: 0 15px 0 20px;
+  font-size: 30px;
+  padding: 0 5px 0 10px;
   color: var(--white-color-2);
-  letter-spacing: 5px;
+  letter-spacing: 4px;
   font-weight: bold;
   background-color: var(--blue-color);
-  border-radius: 10px 25px 10px 25px;
-  -webkit-border-radius: 10px 25px 10px 25px;
-  -moz-border-radius: 10px 25px 10px 25px;
-  -ms-border-radius: 10px 25px 10px 25px;
-  -o-border-radius: 10px 25px 10px 25px;
+  border-radius: 10px 20px;
+  -webkit-border-radius: 10px 20px;
+  -moz-border-radius: 10px 20px;
+  -ms-border-radius: 10px 20px;
+  -o-border-radius: 10px 20px;
 }
+
 .nav .links > ul {
   display: flex;
 }
@@ -35,7 +36,7 @@
   cursor: pointer;
 }
 .nav .links > ul > li > a:hover {
-  background-color: rgba(255, 255, 255, 0.048);
+  background-color: var(--blue-color-2);
 }
 .nav .links > ul > li > a.active {
   background-color: var(--blue-color);
