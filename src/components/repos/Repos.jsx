@@ -1,16 +1,30 @@
-import { useEffect } from "react";
 import "./repos.css";
-import { useDispatch, useSelector } from "react-redux";
-import { fetchRepos } from "../../rtk/repoSlice";
 import SectionHeader from "./../sectionHeader/SectionHeader";
 import { Col, Container, Row } from "react-bootstrap";
+import axios from "axios";
+import { useEffect } from "react";
+import { useState } from "react";
 
 const Repos = () => {
-  const dispatch = useDispatch();
-  const { data: repos, loading, error } = useSelector((state) => state.repos);
+  const url = "https://api.github.com/users/ziad-ahmed22/repos";
+  const [loading, setLoading] = useState(false);
+  const [data, setData] = useState([]);
+  const [error, setError] = useState("");
 
   useEffect(() => {
-    dispatch(fetchRepos());
+    setLoading(true);
+    const fetchRepos = async () => {
+      try {
+        const res = await axios.get(url);
+        setLoading(false);
+        setData(res.data);
+        setError("");
+      } catch (error) {
+        setLoading(false);
+        setError(error.message);
+      }
+    };
+    fetchRepos();
   }, []);
 
   if (loading)
@@ -25,6 +39,7 @@ const Repos = () => {
     return (
       <div className="repos">
         <SectionHeader title="My Repos" />
+        <span className="error">Opps! Failed To Fetch Repos :(</span>
         <span className="error">{error}</span>
       </div>
     );
@@ -34,7 +49,7 @@ const Repos = () => {
       <SectionHeader title="My Repos" />
       <Container>
         <Row xs={1} lg={2}>
-          {repos.map((repo, index) => (
+          {data.map((repo, index) => (
             <Col key={index}>
               <div
                 className="repo flex-between r-5"

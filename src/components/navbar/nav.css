@@ -36,7 +36,7 @@
   cursor: pointer;
 }
 .nav .links > ul > li > a:hover {
-  background-color: var(--blue-color-2);
+  background-color: var(--black-color);
 }
 .nav .links > ul > li > a.active {
   background-color: var(--blue-color);

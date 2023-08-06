@@ -20,7 +20,7 @@ function App() {
     AOS.init();
     setTimeout(() => {
       setLoading(false);
-    }, 1700);
+    }, 1750);
   }, []);
 
   return (
