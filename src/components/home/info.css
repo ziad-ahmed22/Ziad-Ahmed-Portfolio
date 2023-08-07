@@ -1,5 +1,5 @@
 .home .info {
-  padding: 20px;
+  padding: 20px 5px;
 }
 .home .info h1.name {
   font-weight: 800;
@@ -62,35 +62,14 @@
   animation: move-up-right 0.5s 0.3s infinite;
   -webkit-animation: move-up-right 0.5s 0.3s infinite;
 }
-@keyframes move-up-right {
-  to {
-    translate: 5px -3px;
-  }
-}
+
 .home .info .btns > a:last-of-type:hover svg {
   animation: move-up-down 0.5s 0.3s infinite;
   -webkit-animation: move-up-down 0.5s 0.3s infinite;
 }
-@keyframes move-up-down {
-  from {
-    translate: 0 -3px;
-  }
-  to {
-    translate: 0 3px;
-  }
-}
 
+/* media */
 @media (max-width: 992px) {
-  .home {
-    padding-top: 80px;
-  }
-  .home .info {
-    padding-top: 160px;
-    margin-top: -135px;
-    background-color: var(--dark-color);
-    box-shadow: -200px -250px 500px var(--shadow-color),
-      500px -300px 500px var(--shadow-color);
-  }
   .home .info h1.name {
     font-size: 23px;
     margin-bottom: 20px;
@@ -113,23 +92,19 @@
   .home .info .btns > a {
     padding: 10px;
   }
-  .home .social {
-    position: absolute;
-    bottom: unset;
-    left: unset;
-    top: 5px;
-    left: 50%;
-    width: 93%;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-  }
 }
 
-@media (max-width: 371px) {
-  .home .info .btns > a {
-    padding: 6px;
+/* animation */
+@keyframes move-up-right {
+  to {
+    translate: 5px -3px;
+  }
+}
+@keyframes move-up-down {
+  from {
+    translate: 0 -3px;
+  }
+  to {
+    translate: 0 3px;
   }
 }

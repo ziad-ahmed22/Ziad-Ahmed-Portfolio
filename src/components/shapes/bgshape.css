@@ -1,5 +1,5 @@
 .bg-shape {
-  opacity: 0.3;
+  opacity: 0.2;
   filter: grayscale(1);
   position: fixed;
   top: -300px;
@@ -13,4 +13,10 @@
   -ms-transform: scaleX(5);
   -o-transform: scaleX(5);
   -webkit-filter: grayscale(1);
+}
+
+@media (max-width: 992px) {
+  .bg-shape {
+    opacity: 0;
+  }
 }
