@@ -4,7 +4,7 @@ import "./preloader.css";
 const PreLoader = () => {
   return (
     <div className="preloader">
-      <ClimbingBoxLoader color="#3a1db0" />
+      <ClimbingBoxLoader color="#028a8a" />
     </div>
   );
 };

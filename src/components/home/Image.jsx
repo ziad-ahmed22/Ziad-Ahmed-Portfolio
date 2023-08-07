@@ -1,11 +1,11 @@
-import profileImg from "../../images/ziad.jpg";
+import profileImg from "../../images/ziad4.png";
 import "./image.css";
 
 const Image = () => {
   return (
     <div className="header-img" data-aos="fade-down" data-aos-duration="1500">
       <div className="img">
-        <img src={profileImg} alt="Ziad Profile Image" className="wh-100" />
+        <img src={profileImg} alt="Ziad Profile Image" />
       </div>
     </div>
   );

@@ -2,6 +2,7 @@ import { Container } from "react-bootstrap";
 import SectionHeader from "../sectionHeader/SectionHeader";
 import "./about.css";
 import { GiBurningDot } from "react-icons/gi";
+import profileImg from "../../images/ziad1.jpg";
 
 const data = [
   "I am 24 years old and I am from Egypt.",
@@ -16,6 +17,12 @@ const About = () => {
     <div className="about section-mb">
       <SectionHeader title="About Me" />
       <Container data-aos="fade-up" data-aos-duration="800">
+        <div className="image d-none d-lg-block">
+          <div className="img">
+            <img src={profileImg} className="wh-100" alt="my image" />
+          </div>
+        </div>
+
         <div className="notebook">
           {data.map((item, index) => (
             <p key={index}>

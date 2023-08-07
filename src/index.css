@@ -1,6 +1,6 @@
 :root {
-  --blue-color: #3a1db0;
-  --blue-color-2: #1f144b;
+  --blue-color: rgb(2, 138, 138);
+  --blue-color-2: rgb(26, 85, 85);
   --dark-color: black;
   --black-color: #0d1117;
   --black-color-2: #1b1f2a;
@@ -36,19 +36,19 @@ textarea {
 }
 
 ::-webkit-scrollbar {
-  width: 9px;
+  width: 10px;
 }
 ::-webkit-scrollbar-thumb {
   background-image: linear-gradient(
-    var(--black-color),
-    var(--blue-color),
-    var(--black-color)
+    transparent,
+    var(--blue-color-2),
+    transparent
   );
 }
 ::-webkit-scrollbar-thumb:hover {
   background-image: linear-gradient(
     var(--black-color),
-    rgb(0, 8, 255),
+    var(--blue-color),
     var(--black-color)
   );
 }
@@ -110,4 +110,9 @@ textarea {
 
 .section-mb {
   margin-bottom: 120px;
+}
+@media (max-width: 992px) {
+  .section-mb {
+    margin-bottom: 80px;
+  }
 }

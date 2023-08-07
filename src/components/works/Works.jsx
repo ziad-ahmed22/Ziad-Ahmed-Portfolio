@@ -11,7 +11,7 @@ const Works = () => {
       <Container>
         <div className="grid-3">
           {data.map((item, index) => (
-            <Card project={item} key={index} />
+            <Card {...item} key={index} />
           ))}
         </div>
       </Container>

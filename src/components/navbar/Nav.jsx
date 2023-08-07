@@ -11,6 +11,16 @@ const Nav = () => {
   const [showNav, setShowNav] = useState(false);
   const [activeLink, setActiveLink] = useState("home");
 
+  const handleShowNav = (e) => {
+    if (e.target.dataset.name === "open-icon") {
+      setShowNav(true);
+    } else {
+      setShowNav(false);
+    }
+  };
+
+  window.addEventListener("click", handleShowNav);
+
   const handleSetActive = (to) => {
     setActiveLink(to);
   };
@@ -58,9 +68,9 @@ const Nav = () => {
 
       <div className="nav-menu d-lg-none">
         {showNav ? (
-          <MdOutlineClose onClick={() => setShowNav(false)} />
+          <MdOutlineClose onClick={handleShowNav} />
         ) : (
-          <RiMenu5Fill onClick={() => setShowNav(true)} />
+          <RiMenu5Fill data-name="open-icon" onClick={handleShowNav} />
         )}
       </div>
     </>
