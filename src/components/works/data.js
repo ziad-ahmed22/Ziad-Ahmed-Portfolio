@@ -1,17 +1,17 @@
-import ecommerceImg from "../../images/ecommerce.png";
-import moviesImg from "../../images/movies.png";
-import reactTodoImg from "../../images/todoReact.png";
-import resturantImg from "../../images/resturant.png";
-import ziadWorldImg from "../../images/ziadWorld.png";
-import dashboardImg from "../../images/dashboard.png";
-import jsTodoImg from "../../images/todoJs.png";
-import galleryImg from "../../images/gallery.png";
-import template3Img from "../../images/templateThree.png";
-import randomKeyImg from "../../images/randomKeyGen.png";
-import sliderImg from "../../images/slider.png";
-import template2Img from "../../images/templateTwo.png";
-import quizImg from "../../images/quiz.png";
-import eventImg from "../../images/celebration.png";
+import ecommerceImg from "../../images/projects/ecommerce.png";
+import moviesImg from "../../images/projects/movies.png";
+import reactTodoImg from "../../images/projects/todoReact.png";
+import resturantImg from "../../images/projects/resturant.png";
+import ziadWorldImg from "../../images/projects/ziadWorld.png";
+import dashboardImg from "../../images/projects/dashboard.png";
+import jsTodoImg from "../../images/projects/todoJs.png";
+import galleryImg from "../../images/projects/gallery.png";
+import template3Img from "../../images/projects/templateThree.png";
+import randomKeyImg from "../../images/projects/randomKeyGen.png";
+import sliderImg from "../../images/projects/slider.png";
+import template2Img from "../../images/projects/templateTwo.png";
+import quizImg from "../../images/projects/quiz.png";
+import eventImg from "../../images/projects/celebration.png";
 
 const data = [
   {
@@ -20,7 +20,7 @@ const data = [
     image: ecommerceImg,
     repo_url: "https://github.com/ziad-ahmed22/DollabyReactApp",
     demo_url: "https://ziad-ahmed22.github.io/DollabyReactApp/",
-    skills: ["Html", "Css", "React Js", "React Bootstrap", "Redux Toolkit"],
+    skills: ["JSX", "Css", "React Js", "React Bootstrap", "Redux Toolkit"],
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ const data = [
     image: moviesImg,
     repo_url: "https://github.com/ziad-ahmed22/NetflixoReactApp",
     demo_url: "https://ziad-ahmed22.github.io/NetflixoReactApp/",
-    skills: ["Html", "Css", "React Js", "React Bootstrap", "Redux Toolkit"],
+    skills: ["JSX", "Css", "React Js", "React Bootstrap", "Redux Toolkit"],
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ const data = [
     image: reactTodoImg,
     repo_url: "https://github.com/ziad-ahmed22/todo-app-react",
     demo_url: "https://ziad-ahmed22.github.io/todo-app-react/",
-    skills: ["Html", "Css", "React Js"],
+    skills: ["JSX", "Css", "React Js"],
   },
   {
     id: 4,

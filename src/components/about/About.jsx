@@ -2,7 +2,7 @@ import { Container } from "react-bootstrap";
 import SectionHeader from "../sectionHeader/SectionHeader";
 import "./about.css";
 import { GiBurningDot } from "react-icons/gi";
-import profileImg from "../../images/ziad1.jpg";
+import profileImg from "../../images/profile/ziad1.jpg";
 
 const data = [
   "I am 24 years old and I am from Egypt.",

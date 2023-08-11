@@ -1,4 +1,4 @@
-import profileImg from "../../images/ziad4.png";
+import profileImg from "../../images/profile/ziad4.png";
 import "./image.css";
 
 const Image = () => {
