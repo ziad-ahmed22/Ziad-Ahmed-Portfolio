@@ -12,6 +12,7 @@ import sliderImg from "../../images/projects/slider.png";
 import template2Img from "../../images/projects/templateTwo.png";
 import quizImg from "../../images/projects/quiz.png";
 import eventImg from "../../images/projects/celebration.png";
+import curdImg from "../../images/projects/curd.png";
 
 const data = [
   {
@@ -32,11 +33,12 @@ const data = [
   },
   {
     id: 3,
-    title: "React Todo App",
-    image: reactTodoImg,
-    repo_url: "https://github.com/ziad-ahmed22/todo-app-react",
-    demo_url: "https://ziad-ahmed22.github.io/todo-app-react/",
-    skills: ["JSX", "Css", "React Js"],
+    title: "CURD React App",
+    image: curdImg,
+    repo_url: "https://github.com/ziad-ahmed22/CURD_REACT_APP",
+    demo_url:
+      "https://www.linkedin.com/posts/ziad-ahmed22_reactjs-activity-7068935273115451395-r4Mj/?utm_source=share&utm_medium=member_desktop",
+    skills: ["JSX", "Css", "Bootstrap", "React Js"],
   },
   {
     id: 4,
@@ -64,54 +66,14 @@ const data = [
   },
   {
     id: 7,
-    title: "Js Todo App",
-    image: jsTodoImg,
-    repo_url: "https://github.com/ziad-ahmed22/To_Do_Task",
-    demo_url: "https://ziad-ahmed22.github.io/To_Do_Task/",
-    skills: ["Html", "Css", "Javascript"],
+    title: "React Todo App",
+    image: reactTodoImg,
+    repo_url: "https://github.com/ziad-ahmed22/todo-app-react",
+    demo_url: "https://ziad-ahmed22.github.io/todo-app-react/",
+    skills: ["JSX", "Css", "React Js"],
   },
   {
     id: 8,
-    title: "Gallery With Slider",
-    image: galleryImg,
-    repo_url: "https://github.com/ziad-ahmed22/Awsome_Gallery_With_Slider",
-    demo_url: "https://ziad-ahmed22.github.io/Awsome_Gallery_With_Slider/",
-    skills: ["Html", "Css", "Javascript"],
-  },
-  {
-    id: 9,
-    title: "Template Three",
-    image: template3Img,
-    repo_url: "https://github.com/ziad-ahmed22/templateThreeHtmlCss",
-    demo_url: "https://ziad-ahmed22.github.io/templateThreeHtmlCss/",
-    skills: ["Html", "Css"],
-  },
-  {
-    id: 10,
-    title: "Random Key Generator",
-    image: randomKeyImg,
-    repo_url: "https://github.com/ziad-ahmed22/Random_Key_Generator",
-    demo_url: "https://ziad-ahmed22.github.io/Random_Key_Generator/",
-    skills: ["Html", "Css", "Javascript"],
-  },
-  {
-    id: 11,
-    title: "Images Slider",
-    image: sliderImg,
-    repo_url: "https://github.com/ziad-ahmed22/Image_Slider",
-    demo_url: "https://ziad-ahmed22.github.io/Image_Slider/",
-    skills: ["Html", "Css", "Javascript"],
-  },
-  {
-    id: 12,
-    title: "Template Two",
-    image: template2Img,
-    repo_url: "https://github.com/ziad-ahmed22/templateTwoHtmlCss",
-    demo_url: "https://ziad-ahmed22.github.io/templateTwoHtmlCss/",
-    skills: ["Html", "Css"],
-  },
-  {
-    id: 13,
     title: "Js Quiz App",
     image: quizImg,
     repo_url: "https://github.com/ziad-ahmed22/Quiz_App",
@@ -119,7 +81,55 @@ const data = [
     skills: ["Html", "Css", "Javascript"],
   },
   {
+    id: 9,
+    title: "Gallery With Slider",
+    image: galleryImg,
+    repo_url: "https://github.com/ziad-ahmed22/Awsome_Gallery_With_Slider",
+    demo_url: "https://ziad-ahmed22.github.io/Awsome_Gallery_With_Slider/",
+    skills: ["Html", "Css", "Javascript"],
+  },
+  {
+    id: 10,
+    title: "Js Todo App",
+    image: jsTodoImg,
+    repo_url: "https://github.com/ziad-ahmed22/To_Do_Task",
+    demo_url: "https://ziad-ahmed22.github.io/To_Do_Task/",
+    skills: ["Html", "Css", "Javascript"],
+  },
+  {
+    id: 11,
+    title: "Template Three",
+    image: template3Img,
+    repo_url: "https://github.com/ziad-ahmed22/templateThreeHtmlCss",
+    demo_url: "https://ziad-ahmed22.github.io/templateThreeHtmlCss/",
+    skills: ["Html", "Css"],
+  },
+  {
+    id: 12,
+    title: "Random Key Generator",
+    image: randomKeyImg,
+    repo_url: "https://github.com/ziad-ahmed22/Random_Key_Generator",
+    demo_url: "https://ziad-ahmed22.github.io/Random_Key_Generator/",
+    skills: ["Html", "Css", "Javascript"],
+  },
+  {
+    id: 13,
+    title: "Images Slider",
+    image: sliderImg,
+    repo_url: "https://github.com/ziad-ahmed22/Image_Slider",
+    demo_url: "https://ziad-ahmed22.github.io/Image_Slider/",
+    skills: ["Html", "Css", "Javascript"],
+  },
+  {
     id: 14,
+    title: "Template Two",
+    image: template2Img,
+    repo_url: "https://github.com/ziad-ahmed22/templateTwoHtmlCss",
+    demo_url: "https://ziad-ahmed22.github.io/templateTwoHtmlCss/",
+    skills: ["Html", "Css"],
+  },
+  {
+    id: 15,
     title: "Event Comming Page",
     image: eventImg,
     repo_url: "https://github.com/ziad-ahmed22/Count_Down_Timer",
