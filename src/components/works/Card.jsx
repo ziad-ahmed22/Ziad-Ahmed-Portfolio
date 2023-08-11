@@ -10,7 +10,9 @@ const Card = ({ id, image, title, repo_url, demo_url, skills }) => {
       data-aos-duration="800"
     >
       <div className="img r-15">
-        <img src={image} alt={title} className="wh-100" />
+        <div className="img-container">
+          <img src={image} alt={title} />
+        </div>
 
         <Tooltip id={id} className="tooltip" />
         <div className="over">

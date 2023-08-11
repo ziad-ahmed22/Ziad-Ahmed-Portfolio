@@ -1,18 +1,18 @@
-import ecommerceImg from "../../images/projects/ecommerce.png";
-import moviesImg from "../../images/projects/movies.png";
-import reactTodoImg from "../../images/projects/todoReact.png";
-import resturantImg from "../../images/projects/resturant.png";
-import ziadWorldImg from "../../images/projects/ziadWorld.png";
-import dashboardImg from "../../images/projects/dashboard.png";
-import jsTodoImg from "../../images/projects/todoJs.png";
-import galleryImg from "../../images/projects/gallery.png";
-import template3Img from "../../images/projects/templateThree.png";
-import randomKeyImg from "../../images/projects/randomKeyGen.png";
-import sliderImg from "../../images/projects/slider.png";
-import template2Img from "../../images/projects/templateTwo.png";
-import quizImg from "../../images/projects/quiz.png";
-import eventImg from "../../images/projects/celebration.png";
-import curdImg from "../../images/projects/curd.png";
+import ecommerceImg from "../../images/works/ecommerce.png";
+import moviesImg from "../../images/works/movies.png";
+import curdImg from "../../images/works/curd.png";
+import resturantImg from "../../images/works/resturant.png";
+import ziadWorldImg from "../../images/works/ziadWorld.png";
+import dashboardImg from "../../images/works/dashboard.png";
+import reactTodoImg from "../../images/works/todoReact.png";
+import quizImg from "../../images/works/quiz.png";
+import galleryImg from "../../images/works/gallery.png";
+import jsTodoImg from "../../images/works/todoJs.png";
+import template3Img from "../../images/works/templateThree.png";
+import randomKeyImg from "../../images/works/randomKeyGen.png";
+import sliderImg from "../../images/works/slider.png";
+import template2Img from "../../images/works/templateTwo.png";
+import eventImg from "../../images/works/celebration.png";
 
 const data = [
   {
@@ -33,15 +33,6 @@ const data = [
   },
   {
     id: 3,
-    title: "CURD React App",
-    image: curdImg,
-    repo_url: "https://github.com/ziad-ahmed22/CURD_REACT_APP",
-    demo_url:
-      "https://www.linkedin.com/posts/ziad-ahmed22_reactjs-activity-7068935273115451395-r4Mj/?utm_source=share&utm_medium=member_desktop",
-    skills: ["JSX", "Css", "Bootstrap", "React Js"],
-  },
-  {
-    id: 4,
     title: "Resturant Website",
     image: resturantImg,
     repo_url: "https://github.com/ziad-ahmed22/Restaurantly",
@@ -49,12 +40,21 @@ const data = [
     skills: ["Html", "Css", "Javascript", "Bootstrap"],
   },
   {
-    id: 5,
+    id: 4,
     title: "Ziad World Website",
     image: ziadWorldImg,
     repo_url: "https://github.com/ziad-ahmed22/templateFourHtmlCssJS",
     demo_url: "https://ziad-ahmed22.github.io/templateFourHtmlCssJS/",
     skills: ["Html", "Css", "Javascript"],
+  },
+  {
+    id: 5,
+    title: "CURD React App",
+    image: curdImg,
+    repo_url: "https://github.com/ziad-ahmed22/CURD_REACT_APP",
+    demo_url:
+      "https://www.linkedin.com/posts/ziad-ahmed22_reactjs-activity-7068935273115451395-r4Mj/?utm_source=share&utm_medium=member_desktop",
+    skills: ["JSX", "Css", "Bootstrap", "React Js"],
   },
   {
     id: 6,
