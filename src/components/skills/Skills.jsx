@@ -14,6 +14,8 @@ const mySkills = [
   "React Hooks",
   "React Bootstrap",
   "React Router Dom",
+  "React Hook Forms",
+  "React Query",
   "APIs (axios)",
   "Redux Js",
   "Redux Toolkit",
