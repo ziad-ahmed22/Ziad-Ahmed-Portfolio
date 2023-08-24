@@ -4,6 +4,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import axios from "axios";
 import { useEffect } from "react";
 import { useState } from "react";
+import ErrorRepos from "./ErrorRepos";
 
 const Repos = () => {
   const url = "https://api.github.com/users/ziad-ahmed22/repos";
@@ -35,14 +36,7 @@ const Repos = () => {
       </div>
     );
 
-  if (error)
-    return (
-      <div className="repos">
-        <SectionHeader title="My Repos" />
-        <span className="error">Opps! Failed To Fetch Repos :(</span>
-        <span className="error">{error}</span>
-      </div>
-    );
+  if (error) return <ErrorRepos error={error} />;
 
   return (
     <div className="repos section-mb overflow-hidden">

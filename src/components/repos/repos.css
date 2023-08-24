@@ -28,7 +28,6 @@
   }
 }
 
-.repos .error,
 .repos .loading {
   color: var(--white-color-2);
   font-weight: bold;
@@ -37,4 +36,28 @@
   display: block;
   text-align: center;
   padding-bottom: 60px;
+}
+
+.repos-error .error-area {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.repos-error .error-area .error {
+  font-weight: bold;
+  color: tomato;
+  letter-spacing: 0.5px;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+.repos-error .error-area a.error {
+  text-decoration: underline;
+  margin-bottom: 100px;
+}
+
+.repos-error .error-area a.error:hover {
+  color: var(--blue-color);
 }
