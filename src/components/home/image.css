@@ -48,39 +48,24 @@
     -o-transform: scale(0.8);
   }
 
-  /* circle shape */
   .header-img .img::before {
     content: "";
     position: absolute;
-    width: 410px;
-    height: 410px;
-    left: -15px;
+    width: 420px;
+    height: 420px;
+    left: -5px;
     top: -10px;
     z-index: -2;
     background-color: var(--blue-color);
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    animation: circle 2s infinite;
-    -webkit-animation: circle 15s linear infinite;
-  }
-}
-
-@keyframes circle {
-  0% {
-    transform: rotate(0deg) translate(-8px) rotate(0deg);
-    -webkit-transform: rotate(0deg) translate(-8px) rotate(0deg);
-    -moz-transform: rotate(0deg) translate(-8px) rotate(0deg);
-    -ms-transform: rotate(0deg) translate(-8px) rotate(0deg);
-    -o-transform: rotate(0deg) translate(-8px) rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg) translate(-8px) rotate(-360deg);
-    -webkit-transform: rotate(360deg) translate(-8px) rotate(-360deg);
-    -moz-transform: rotate(360deg) translate(-8px) rotate(-360deg);
-    -ms-transform: rotate(360deg) translate(-8px) rotate(-360deg);
-    -o-transform: rotate(360deg) translate(-8px) rotate(-360deg);
+    background-image: linear-gradient(
+      var(--blue-color),
+      65%,
+      rgba(0, 255, 4, 0.45)
+    );
+    border-radius: 30% 70% 70% 30% / 30% 37% 63% 70%;
+    -webkit-border-radius: 30% 70% 70% 30% / 30% 37% 63% 70%;
+    -moz-border-radius: 30% 70% 70% 30% / 30% 37% 63% 70%;
+    -ms-border-radius: 30% 70% 70% 30% / 30% 37% 63% 70%;
+    -o-border-radius: 30% 70% 70% 30% / 30% 37% 63% 70%;
   }
 }
