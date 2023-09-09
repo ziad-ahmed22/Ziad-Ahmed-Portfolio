@@ -19,6 +19,7 @@ const mySkills = [
   "APIs (axios)",
   "Redux Js",
   "Redux Toolkit",
+  "OOP",
   "Typescript",
   "Sass",
   "Git & Github",
