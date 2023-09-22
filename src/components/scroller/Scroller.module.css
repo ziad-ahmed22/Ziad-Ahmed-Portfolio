@@ -1,0 +1,9 @@
+.scroller {
+  position: fixed;
+  left: 0;
+  z-index: 5000;
+  background-color: #93c90e;
+  width: 0;
+  height: 5px;
+  border-radius: 5px;
+}

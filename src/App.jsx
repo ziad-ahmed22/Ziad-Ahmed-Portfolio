@@ -12,6 +12,7 @@ import { useEffect, useState } from "react";
 import BgShape from "./components/shapes/BgShape";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Scroller from "./components/scroller/scroller";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -29,6 +30,7 @@ function App() {
         <PreLoader />
       ) : (
         <>
+          <Scroller />
           <BgShape />
           <Element>
             <Nav />
