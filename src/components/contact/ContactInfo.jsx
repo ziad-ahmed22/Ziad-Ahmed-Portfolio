@@ -9,6 +9,7 @@ const ContactInfo = () => {
       <div className="r-5">
         <MdLocationOn />
         <span>Egypt, Sohag, El Monshah</span>
+        <span className="realocate">Easy Relocating</span>
       </div>
 
       <a href="tel:01145814339" target="blank" className="r-5">

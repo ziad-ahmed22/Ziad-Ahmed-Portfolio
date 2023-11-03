@@ -10,6 +10,7 @@ const data = [
   "My specialization gives me the ability to think about your project from different points of view, including the business and technical perspectives.",
   "My GPA is 3.38 out of 4.00.",
   "In March 2023, I finished my military service.",
+  "In Aug 2023, I am starting a new position as a Frontend Web Developer at Nplanet.",
 ];
 
 const About = () => {

@@ -1,6 +1,19 @@
 import "./info.css";
 import { BsFillTelephoneOutboundFill } from "react-icons/bs";
 import { FaDownload } from "react-icons/fa";
+import { Link } from "react-scroll";
+
+const skills = [
+  "HTML",
+  "CSS",
+  "JS",
+  "BS",
+  "MUI",
+  "React",
+  "Next",
+  "Redux",
+  "APIs",
+];
 
 const Info = () => {
   const description =
@@ -13,11 +26,22 @@ const Info = () => {
         <span>I'm</span> Ziad Ahmed Mahmoud
       </h1>
 
-      <h3 className="mb-4">
-        Frontend Developer <span>"</span>React Js<span>"</span>
-      </h3>
+      <h3 className="mb-4">Frontend Developer # React Js & Next Js</h3>
 
-      <p className="description mb-5">{description}</p>
+      <p className="description mb-4">{description}</p>
+
+      <div className="skills mb-4 mb-sm-5">
+        {skills.map((skill) => (
+          <Link
+            className="skill"
+            to="skills"
+            offset={window.innerWidth > 992 ? -140 : -60}
+            key={skill}
+          >
+            {skill}
+          </Link>
+        ))}
+      </div>
 
       <div className="btns">
         <a href="tel:01145814339" target="blank" className="r-5 me-3">

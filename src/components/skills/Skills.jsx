@@ -3,25 +3,21 @@ import SectionHeader from "../sectionHeader/SectionHeader";
 import "./skills.css";
 
 const mySkills = [
-  "Html",
-  "Html 5",
-  "Css",
-  "Css 3",
-  "Javascript",
-  "ES6",
+  "Html & Html 5",
+  "Css & Css 3 & Sass",
+  "Javascript & Typescript",
+  "ES6 & OOP",
   "Bootstrap",
-  "React Js",
+  "Material UI",
+  "React Js & Next Js",
   "React Hooks",
-  "React Bootstrap",
   "React Router Dom",
-  "React Hook Forms",
   "React Query",
   "APIs (axios)",
   "Redux Js",
   "Redux Toolkit",
-  "OOP",
-  "Typescript",
-  "Sass",
+  "ٌRedux Thunk & Saga",
+  "React Hook Forms & Formik",
   "Git & Github",
 ];
 

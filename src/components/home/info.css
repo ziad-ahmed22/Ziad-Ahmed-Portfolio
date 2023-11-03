@@ -21,6 +21,7 @@
 
 .home .info > h3 {
   color: var(--white-color-2);
+  line-height: 1.6;
 }
 
 .home .info .description {
@@ -28,6 +29,29 @@
   font-size: 18px;
   letter-spacing: 1px;
   line-height: 1.8;
+}
+
+.home .info .skills {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.home .info .skills > .skill {
+  background-color: var(--blue-color-2);
+  color: var(--white-color);
+  font-weight: 500;
+  padding: 2px 8px 1px;
+  margin: 5px;
+  border-radius: 20px;
+  font-size: 13px;
+  border: 2px solid var(--blue-color);
+  opacity: 0.5;
+  transition: 0.3s;
+}
+.home .info .skills > .skill:hover {
+  opacity: 1;
+  cursor: pointer;
 }
 
 .home .info .btns > a {
@@ -71,7 +95,7 @@
 /* media */
 @media (max-width: 992px) {
   .home .info h1.name {
-    font-size: 23px;
+    font-size: 20px;
     margin-bottom: 20px;
   }
   .home .info h1.name span {
@@ -90,7 +114,8 @@
     margin-bottom: 20px !important;
   }
   .home .info .btns > a {
-    padding: 10px;
+    padding: 6px 12px;
+    font-size: 15px;
   }
 }
 

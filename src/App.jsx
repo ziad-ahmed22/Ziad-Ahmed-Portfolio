@@ -13,58 +13,62 @@ import BgShape from "./components/shapes/BgShape";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Scroller from "./components/scroller/scroller";
+import SayHi from "./components/sayHi/SayHi";
 
 function App() {
   const [loading, setLoading] = useState(true);
+  const [hi, setHi] = useState(true);
 
   useEffect(() => {
     AOS.init();
     setTimeout(() => {
       setLoading(false);
+      setHi(true);
     }, 1750);
+    setTimeout(() => {
+      setHi(false);
+    }, 2700);
   }, []);
+
+  if (loading) return <PreLoader />;
+
+  if (hi) return <SayHi />;
 
   return (
     <>
-      {loading ? (
-        <PreLoader />
-      ) : (
-        <>
-          <Scroller />
-          <BgShape />
-          <Element>
-            <Nav />
-          </Element>
+      <Scroller />
+      <BgShape />
+      <Element>
+        <Nav />
+      </Element>
 
-          <Element name="home">
-            <Home />
-          </Element>
+      <Element name="home">
+        <Home />
+      </Element>
 
-          <Element name="about">
-            <About />
-          </Element>
+      <Element name="about">
+        <About />
+      </Element>
 
-          <Element name="skills">
-            <Skills />
-          </Element>
+      <Element name="skills">
+        <Skills />
+      </Element>
 
-          <Element name="works">
-            <Works />
-          </Element>
+      <Element name="works">
+        <Works />
+      </Element>
 
-          <Element name="repos">
-            <Repos />
-          </Element>
+      <Element name="repos">
+        <Repos />
+      </Element>
 
-          <Element name="contact">
-            <Contact />
-          </Element>
+      <Element name="contact">
+        <Contact />
+      </Element>
 
-          <Element>
-            <Footer />
-          </Element>
-        </>
-      )}
+      <Element>
+        <Footer />
+      </Element>
     </>
   );
 }
