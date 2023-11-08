@@ -1,19 +1,20 @@
-import Nav from "./components/navbar/Nav";
-import Home from "./components/home/Home";
-import About from "./components/about/About";
+import { useEffect, useState } from "react";
+import { Element } from "react-scroll";
+import "aos/dist/aos.css";
+import AOS from "aos";
+
+import PreLoader from "./components/preloader/PreLoader";
+import Scroller from "./components/scroller/scroller";
+import Contact from "./components/contact/Contact";
+import BgShape from "./components/shapes/BgShape";
 import Skills from "./components/skills/Skills";
+import Footer from "./components/footer/Footer";
+import About from "./components/about/About";
 import Works from "./components/works/Works";
 import Repos from "./components/repos/Repos";
-import Contact from "./components/contact/Contact";
-import Footer from "./components/footer/Footer";
-import { Element } from "react-scroll";
-import PreLoader from "./components/preloader/PreLoader";
-import { useEffect, useState } from "react";
-import BgShape from "./components/shapes/BgShape";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import Scroller from "./components/scroller/scroller";
 import SayHi from "./components/sayHi/SayHi";
+import Home from "./components/home/Home";
+import Nav from "./components/navbar/Nav";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -21,13 +22,16 @@ function App() {
 
   useEffect(() => {
     AOS.init();
-    setTimeout(() => {
-      setLoading(false);
-      setHi(true);
-    }, 1750);
-    setTimeout(() => {
-      setHi(false);
-    }, 2700);
+    new Promise((resolve) => {
+      setTimeout(() => {
+        setLoading(false);
+        resolve();
+      }, 1750);
+    }).then(() => {
+      setTimeout(() => {
+        setHi(false);
+      }, 1000);
+    });
   }, []);
 
   if (loading) return <PreLoader />;

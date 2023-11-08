@@ -55,7 +55,8 @@ const Nav = () => {
                     offset={window.innerWidth > smallScreen ? -140 : -60}
                     activeClass="active"
                     onSetActive={handleSetActive}
-                    className={activeLink === { path } ? "active" : ""}
+                    className={activeLink === path ? "active" : ""}
+                    onClick={() => setShowNav(false)}
                   >
                     {body}
                   </Link>
