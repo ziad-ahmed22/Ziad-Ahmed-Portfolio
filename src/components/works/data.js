@@ -1,3 +1,4 @@
+import fakebookImg from "../../images/works/fakebook.png";
 import ecommerceImg from "../../images/works/ecommerce.webp";
 import moviesImg from "../../images/works/movies.webp";
 import curdImg from "../../images/works/curd.webp";
@@ -17,6 +18,21 @@ import eventImg from "../../images/works/celebration.webp";
 const data = [
   {
     id: 1,
+    title: "Fakebook Website",
+    image: fakebookImg,
+    repo_url: "https://github.com/ziad-ahmed22/Fakebook",
+    demo_url: "https://ziad-ahmed22.github.io/Fakebook/",
+    skills: [
+      "React Js",
+      "Sass",
+      "Bootstrap",
+      "MUI",
+      "Redux Toolkit",
+      "Redux Saga",
+    ],
+  },
+  {
+    id: 2,
     title: "E-Commerce Website",
     image: ecommerceImg,
     repo_url: "https://github.com/ziad-ahmed22/E-Commerce-React-App",
@@ -24,7 +40,7 @@ const data = [
     skills: ["JSX", "Css", "React Js", "React Bootstrap", "Redux Toolkit"],
   },
   {
-    id: 2,
+    id: 3,
     title: "Movies Website",
     image: moviesImg,
     repo_url: "https://github.com/ziad-ahmed22/Movies-React-App",
@@ -32,7 +48,7 @@ const data = [
     skills: ["JSX", "Css", "React Js", "React Bootstrap", "Redux Toolkit"],
   },
   {
-    id: 3,
+    id: 4,
     title: "Resturant Website",
     image: resturantImg,
     repo_url: "https://github.com/ziad-ahmed22/Restaurantly",
@@ -40,7 +56,7 @@ const data = [
     skills: ["Html", "Css", "Javascript", "Bootstrap"],
   },
   {
-    id: 4,
+    id: 5,
     title: "Ziad World Website",
     image: ziadWorldImg,
     repo_url: "https://github.com/ziad-ahmed22/Template-Four-Html-Css-JS",
@@ -48,7 +64,7 @@ const data = [
     skills: ["Html", "Css", "Javascript"],
   },
   {
-    id: 5,
+    id: 6,
     title: "CURD React App",
     image: curdImg,
     repo_url: "https://github.com/ziad-ahmed22/Products-React-App",
@@ -57,7 +73,7 @@ const data = [
     skills: ["JSX", "Css", "Bootstrap", "React Js"],
   },
   {
-    id: 6,
+    id: 7,
     title: "Dashboard",
     image: dashboardImg,
     repo_url: "https://github.com/ziad-ahmed22/Dashboard-Html-Css",
@@ -65,7 +81,7 @@ const data = [
     skills: ["Html", "Css"],
   },
   {
-    id: 7,
+    id: 8,
     title: "React Todo App",
     image: reactTodoImg,
     repo_url: "https://github.com/ziad-ahmed22/Todo-React-App",
@@ -73,7 +89,7 @@ const data = [
     skills: ["JSX", "Css", "React Js"],
   },
   {
-    id: 8,
+    id: 9,
     title: "Js Quiz App",
     image: quizImg,
     repo_url: "https://github.com/ziad-ahmed22/Quiz-App",
@@ -81,7 +97,7 @@ const data = [
     skills: ["Html", "Css", "Javascript"],
   },
   {
-    id: 9,
+    id: 10,
     title: "Gallery With Slider",
     image: galleryImg,
     repo_url: "https://github.com/ziad-ahmed22/Awsome-Gallery-With-Slider",
@@ -89,7 +105,7 @@ const data = [
     skills: ["Html", "Css", "Javascript"],
   },
   {
-    id: 10,
+    id: 11,
     title: "Js Todo App",
     image: jsTodoImg,
     repo_url: "https://github.com/ziad-ahmed22/To-Do-Task-Js",
@@ -97,7 +113,7 @@ const data = [
     skills: ["Html", "Css", "Javascript"],
   },
   {
-    id: 11,
+    id: 12,
     title: "Template Three",
     image: template3Img,
     repo_url: "https://github.com/ziad-ahmed22/Template-Three-Html-Css",
@@ -105,7 +121,7 @@ const data = [
     skills: ["Html", "Css"],
   },
   {
-    id: 12,
+    id: 13,
     title: "Random Key Generator",
     image: randomKeyImg,
     repo_url: "https://github.com/ziad-ahmed22/Random-Key-Generator",
@@ -113,7 +129,7 @@ const data = [
     skills: ["Html", "Css", "Javascript"],
   },
   {
-    id: 13,
+    id: 14,
     title: "Images Slider",
     image: sliderImg,
     repo_url: "https://github.com/ziad-ahmed22/Image-Slider",
@@ -121,7 +137,7 @@ const data = [
     skills: ["Html", "Css", "Javascript"],
   },
   {
-    id: 14,
+    id: 15,
     title: "Template Two",
     image: template2Img,
     repo_url: "https://github.com/ziad-ahmed22/Template-Two-Html-Css",
@@ -129,7 +145,7 @@ const data = [
     skills: ["Html", "Css"],
   },
   {
-    id: 15,
+    id: 16,
     title: "Event Comming Page",
     image: eventImg,
     repo_url: "https://github.com/ziad-ahmed22/Count-Down-Timer",
